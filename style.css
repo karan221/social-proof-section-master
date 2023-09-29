@@ -22,7 +22,7 @@ main {
 }
 main .container {
   margin: 1rem;
-  margin-top: 3rem;
+  margin-top: 1.5rem;
 }
 main .container__top {
   color: hsl(300, 43%, 22%);
@@ -44,6 +44,9 @@ main .container__top .ratings .rating {
   padding: 0.75rem;
   background-color: hsl(300, 24%, 96%);
   border-radius: 5px;
+}
+main .container__top .ratings .rating .stars {
+  margin-bottom: 0.4rem;
 }
 main .review_cards {
   color: hsl(0, 0%, 100%);

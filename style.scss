@@ -22,7 +22,7 @@ main {
   min-height: 100%;
   .container {
     margin: 1rem;
-    margin-top: 3rem;
+    margin-top: 1.5rem;
   }
 
   .container__top {
@@ -48,6 +48,9 @@ main {
         padding: 0.75rem;
         background-color: hsl(300, 24%, 96%);
         border-radius: 5px;
+        .stars {
+          margin-bottom: 0.4rem;
+        }
       }
     }
   }
